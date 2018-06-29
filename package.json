@@ -1,0 +1,16 @@
+{
+  "name": "tide-forecast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Sculley",
+  "license": "ISC",
+  "dependencies": {
+    "jssoup": "0.0.8",
+    "node-fetch": "^2.1.2"
+  }
+}
