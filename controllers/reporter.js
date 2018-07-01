@@ -22,3 +22,7 @@ module.exports = {
    startReport,
    reportTideResults
 };
+
+if(process.env.NODE_TEST) {
+   module.exports.makeLocationReadable = makeLocationReadable;
+}

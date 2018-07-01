@@ -2,7 +2,12 @@
 Scrapes information on daylight low tides from https://www.tide-forecast.com
 
 # Installation
-`npm install`
+1. Install Node.js and NPM  
+2. `npm install`  
+3. You can run tests with `npm test`
 
 # Run
-`node run.js`
+`npm start` or `node run.js`
+
+# Test
+`npm test`

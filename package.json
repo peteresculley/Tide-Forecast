@@ -5,12 +5,16 @@
   "main": "run.js",
   "scripts": {
     "start": "node run.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Peter Sculley",
   "license": "ISC",
   "dependencies": {
     "jssoup": "0.0.8",
     "node-fetch": "^2.1.2"
+  },
+  "devDependencies": {
+    "fetch-mock": "^6.5.0",
+    "mocha": "^5.2.0"
   }
 }
