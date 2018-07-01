@@ -7,7 +7,8 @@ Scrapes information on daylight low tides from https://www.tide-forecast.com
 3. You can run tests with `npm test`
 
 # Run
-`npm start` or `node run.js`
+`npm start` or `node run.js`  
+Results are printed to the console
 
 # Test
 `npm test`
